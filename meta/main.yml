@@ -1,0 +1,18 @@
+---
+galaxy_info:
+  author: crgwilson
+  description: Add the debian backports repo to apt sources
+  license: Apache v2
+  min_ansible_version: 2.4
+  platforms:
+    - name: Debian
+      versions:
+        - buster
+        - stretch
+
+  galaxy_tags:
+    - debian
+    - backports
+    - apt
+
+dependencies: []

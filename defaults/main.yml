@@ -1,0 +1,7 @@
+---
+debian_backports_repo_url: http://deb.debian.org/debian
+debian_backports_repo_components:
+  - main
+  # - contrib
+  # - non-free
+debian_backports_repo_state: present

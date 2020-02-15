@@ -1,0 +1,12 @@
+---
+- name: Converge
+  hosts: all
+  become: true
+
+  vars:
+    debian_backports_repo_components:
+      - main
+      - contrib
+
+  roles:
+    - role: ansible-role-debian-backports-repo

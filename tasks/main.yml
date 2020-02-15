@@ -1,0 +1,7 @@
+---
+- name: Install the backports repo
+  apt_repository:
+    repo: "deb http://deb.debian.org/debian {{ ansible_distribution_release }}-backports {{ debian_backports_repo_components | join(' ') }}"
+    filename: backports
+    update_cache: true
+    state: "{{ debian_backports_repo_state }}"
