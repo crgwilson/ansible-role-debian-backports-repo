@@ -1,5 +1,7 @@
 # Ansible role: Debian Backports Repo
 
+![Molecule Test](https://github.com/crgwilson/ansible-role-debian-backports-repo/workflows/Molecule%20Test/badge.svg)
+
 Install the Debian backports repo in one place rather than strewn about everywhere that needs it
 
 * Add the debian backports repo into the apt sources list
